@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;500&display=swap');
+
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Roboto', serif;
+  margin: 0;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h1 {
+  font-family: 'Roboto';
+  color: #c6d7c5;
+  background-color: #494949;
+  text-align: center;
+  border-radius: 4px;
+}
+
+h2,h3 {
+  color: #455444;
+}
+
+p,a,li {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 40px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgb(212, 206, 206), rgb(246, 243, 243));
+  color: #878585;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 5px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(27, 19, 19), rgb(168, 166, 166));
+  color: #f6f5f5;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 500px) {
+.banner {
+    padding: 50px 0;
+}
+}
